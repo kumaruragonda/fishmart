@@ -1,0 +1,3 @@
+com\fishmart\configuration\WebInitializer.class
+com\fishmart\configuration\AppConfiguration.class
+com\fishmart\controller\HelloWorldController.class
