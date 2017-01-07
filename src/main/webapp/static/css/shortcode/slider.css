@@ -1,0 +1,241 @@
+/* -----------------------------------
+Template:  The Kings - Responsive Multi-purpose HTML5 Template
+Template URI: http://bootexperts.com
+Description: This is html5 template
+Author: BootExperts
+Author URI: http://bootexperts.com
+Version: 1.0
+
+--------------------------------------*/
+
+.slider-area > img {
+  height: 100vh;
+  width: 100%;
+}
+
+/* --------------------------
+ slider-area
+-----------------------------*/
+.nivo-caption {
+    background: transparent none repeat scroll 0 0;
+    height: 100%;
+    opacity: 1;
+    padding: 0;
+    text-align: center;
+    z-index: 99;
+}
+.slide1-text {
+  left: 0;
+  margin-top: -150px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.check-it-out {
+  margin-top: 30px;
+}
+.slide-def {
+  left: 10%;
+  position: absolute;
+  text-align: left;
+  width: 400px;
+}
+.slide-def.slide-right {
+  right:10%;
+  text-align: right;
+  left:auto
+}
+.slide-def.slide-center {
+  left: 0;
+  margin: auto;
+  right: 0;
+  text-align: center;
+  width: 525px;
+}
+.middle-text h1 {
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 60px;
+}
+.middle-text h1 span {
+  color: #2395ec;
+}
+.middle-text h2 {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 29px;
+  margin-top: 30px;
+}
+.cap-title {} .cap-title h1 {
+    display: inline-block;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.nivo-caption a.button {
+  display: inline-block !important;
+}
+.nivo-directionNav a {
+  background: rgba(23, 24, 25, 0.5) none repeat scroll 0 0;
+  border-radius: 100%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+  height: 60px;
+  line-height: 55px;
+  margin-top: -25px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transition: all 0.3s ease 0s;
+  width: 60px;
+  z-index: 99;
+  opacity:0
+}
+.slider-container:hover .nivo-directionNav a {
+  color: #fff;
+  opacity: 1;
+}
+.nivo-prevNav {
+    left: 5px;
+}
+.nivo-nextNav {
+    right: 5px;
+}
+.nivo-directionNav a:hover {
+  background: #2395ec none repeat scroll 0 0;
+  border-color: #2395ec;
+}
+.slider-container:hover .nivo-prevNav {
+    left: 40px
+}
+.slider-container:hover .nivo-nextNav {
+    right: 40px
+}
+
+.slider-progress {
+  -webkit-animation: 5000ms ease-in-out 0s normal none 1 running timebar;
+  -moz-animation: 5000ms ease-in-out 0s normal none 1 running timebar;
+  animation: 5000ms ease-in-out 0s normal none 1 running timebar;
+  background-color: rgba(38, 57, 64, 0.42);
+  height: 5px;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+}
+@-webkit-keyframes timebar {
+  from {width: 0;}
+  to {width: 100%;}
+ }
+ @keyframes timebar {
+  from {width: 0;}
+  to {width: 100%;}
+ }
+/*slider-container end*/
+/*==== slider -Corporate =====*/
+
+.slide-def.slider-2 {
+  width: 510px;
+  left: 15%;
+}
+.slide-def.slide-right.slider-2 {
+  left: auto;
+  right: 15%;
+}
+
+/*========== slider portfolio=========== */
+.middle-text.slider-3 h1 {
+  font-size: 48px;
+  line-height: 50px;
+}
+.slide1-text.slider-portfolio {
+	margin-top:-108px;
+}
+.slide-def.slide-right.slider-3 {
+  left: auto;
+  right: 15%;
+  text-align: left;
+  width: 350px;
+}
+
+/*===== slider resturant Home-4===== */
+.res-img > img {
+  position: static;
+}
+.middle-text.slider-4 h1 {
+  color: #f3800f;
+  font-family: Herr Von Muellerhoff;
+  margin-top: 20px;
+}
+.middle-text.slider-4 h2 {
+  font-size: 60px;
+  line-height: 60px;
+  margin-top: 0;
+}
+.slide-def.slide-center.slider-4 {
+  width: 310px;
+}
+.slide-def.slider-4 {
+  text-align: center;
+}
+.slide1-text.slider-resturant {
+  margin-top: -143px;
+}
+
+/* slider video prallex (home-6) */
+
+.middle-text.slider-6 h1 {
+  color: #fff;
+  font-size: 46px;
+  line-height: 55px;
+}
+.slide-def.slider-6.slide-center {
+  width: 600px;
+}
+.middle-text.slider-6 h2 {
+  color: #fff;
+}
+
+/* slider shop(home-5) */
+.single-banner {
+    margin-bottom: 20px;
+}
+.slider-banner:last-child .single-banner {
+    margin: 0;
+}
+.single-banner img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

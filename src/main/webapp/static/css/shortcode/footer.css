@@ -1,0 +1,136 @@
+/* -----------------------------------
+Template:  The Kings - Responsive Multi-purpose HTML5 Template
+Template URI: http://bootexperts.com
+Description: This is html5 template
+Author: BootExperts
+Author URI: http://bootexperts.com
+Version: 1.0
+
+--------------------------------------*/
+
+.footer {
+  background: rgba(0, 0, 0, 0) url("../../images/bg/footer-main-bg.jpg") no-repeat scroll center center;
+  background-size: cover;
+}
+.footer p, .footer a {
+  color: #a6abb3;
+}
+.inst-photo > li {
+    float: left;
+    width: 33.33%;
+}
+.inst-photo img {
+    width: 100%;
+}
+
+.footer {
+    color: #a6abb3;
+}
+.footer p, .footer a {
+    color: #a6abb3;
+}
+.footer-logo {
+    margin-bottom: 20px;
+}
+.address {
+}
+.widget_about_us p {
+    margin-bottom: 12px;
+}
+.widget-title {
+    color: #fff;
+    font-size: 17px;
+    margin: 15px 0 28px;
+    text-transform: uppercase;
+}
+.email > a {
+    color: #2395ec;
+}
+.email > a:hover,.tweet-text > a:hover,.global-cell > a:hover {
+    text-decoration: underline;
+}
+.nav_menu > li {
+    line-height: 36px;
+}
+.nav_menu > li:hover a {
+    color: #2395ec;
+}
+.nav_menu a {
+  font-size: 14px;
+}
+.social-icon ul li .facebook:hover {
+  background: #314A87;
+  border-color: #314A87;
+}
+.social-icon ul li .twitter:hover {
+  background: #22BBF4;
+  border-color: #22BBF4;
+}
+.social-icon ul li .dribble:hover {
+  background: #D842A1;
+  border-color: #D842A1;
+}
+.social-icon ul li .g-plus:hover {
+  background: #DA2C2C;
+  border-color: #DA2C2C;
+}
+.social-icon ul li .instargm:hover {
+  background: #F3800F;
+  border-color: #F3800F;
+}
+.tweet-text > a {
+  color: #2395ec;
+}
+.footer .widget_latest_tweet li {
+  margin-bottom: 35px;
+  padding-left: 40px;
+  position: relative;
+}
+.footer .widget_latest_tweet li:last-child,.footer .widget_latest_tweet li:last-child p.tweet-details{
+  margin-bottom: 0;
+}
+.footer .widget_latest_tweet li::before {
+  color: #2395ec;
+  content: "";
+  font-family: FontAwesome;
+  font-size: 25px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+}
+.ins-follow-btn > a {
+    color: #fff;
+}
+.ins-follow-btn > a:hover {
+  color: #2395ec;
+}
+.ins-follow-btn {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+.inst-photo {
+    overflow: hidden;
+}
+.ins-follow-btn i {
+    margin-right: 10px;
+}
+
+/* footer copyright */
+.footer-copyright .global-table {
+  height: 90px;
+  color: #a6abb3;
+  font-size: 14px;
+}
+.global-cell > a {
+  color: #2395ec;
+}
+.payment-icons {
+  text-align: right;
+}
+
+
+
+
+
+

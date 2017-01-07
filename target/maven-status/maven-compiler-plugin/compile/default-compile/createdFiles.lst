@@ -1,3 +1,11 @@
+com\fishmart\dao\AbstractDao.class
+com\fishmart\configuration\CORSFilter.class
 com\fishmart\configuration\WebInitializer.class
+com\fishmart\configuration\HibernateConfiguration.class
+com\fishmart\dao\OrderDetailsDao.class
+com\fishmart\service\OrderDetailsServiceImpl.class
+com\fishmart\controller\ApplicationController.class
+com\fishmart\dao\OrderDetailsImpl.class
+com\fishmart\service\OrderDetailsService.class
+com\fishmart\model\OrderDetails.class
 com\fishmart\configuration\AppConfiguration.class
-com\fishmart\controller\HelloWorldController.class
