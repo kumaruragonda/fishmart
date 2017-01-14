@@ -33,10 +33,10 @@
                            <div class="menu-information-container">
                               <ul class="nav_menu">
                                  <li><a href="about-us.html">About Us</a></li>
-                                 <li><a href="#">Press & Media</a></li>
+                                 <li><a href="#">Press &amp; Media</a></li>
                                  <li><a href="#">News/Blog</a></li>
                                  <li><a href="#">Career</a></li>
-                                 <li><a href="#">Awards & Reviews</a></li>
+                                 <li><a href="#">Awards &amp; Reviews</a></li>
                                  <li><a href="#">Testimonials</a></li>
                                  <li><a href="#">Affiliate Program</a></li>
                               </ul>
@@ -107,42 +107,3 @@
                </div>
             </div>
          </div>
-         <!--footer area are start-->
-
-         <!-- copyright area are start-->
-         <div class="footer-copyright black-bg">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-6 col-sm-7 col-xs-12">
-                     <div class="widget-copyright">
-                        <div class="global-table">
-                           <div class="global-row">
-                              <div class="global-cell">
-                                 Copyright @2016 </div>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- end copyright -->
-                  </div>
-
-                  <div class="col-md-6 col-sm-5 col-xs-12">
-                     <div class="payment-icons">
-                        <div class="global-table">
-                           <div class="global-row">
-                              <div class="global-cell">
-                                 <a href="#"><img alt="payment-icon" src="images/icons/payment-icon.png">	</a>
-                              </div>
-                           </div>
-                        </div>
-
-                     </div>
-                     <!-- end payment_icons -->
-                  </div>
-
-               </div>
-            </div>
-         </div>
-         <!-- copyright area are end-->
-
-
-      

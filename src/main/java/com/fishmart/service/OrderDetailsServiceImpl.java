@@ -9,22 +9,22 @@ import org.springframework.transaction.annotation.Transactional;
 import com.fishmart.dao.OrderDetailsDao;
 import com.fishmart.model.OrderDetails;
  
-@Service("employeeService")
+@Service("orderDetailsService")
 @Transactional
 public class OrderDetailsServiceImpl implements OrderDetailsService{
  
     @Autowired
     private OrderDetailsDao dao;
      
-    public void saveOrderDetails(OrderDetails orderDetails) {
-        dao.saveOrderDetails(orderDetails);
+    public void save(OrderDetails orderDetails) {
+        dao.save(orderDetails);
     }
  
     public List<OrderDetails> findAll() {
         return dao.findAll();
     }
  
-    public void deleteOrderDetails(String orderNumber) {
+    public void delete(String orderNumber) {
         dao.deleteOrderDetails(orderNumber);
     }
  

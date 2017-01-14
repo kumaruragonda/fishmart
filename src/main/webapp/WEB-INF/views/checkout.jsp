@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <div class="checkout-area mtb-80">
 <div class="container">
    <div class="row">
@@ -7,7 +9,7 @@
                <div class="panel panel-checkout">
                   <div class="panel-heading" role="tab" id="headingTwo">
                      <h4 class="panel-title">
-                        <img src="images/icons/acc.jpg" alt="">
+                        <img src="<c:url value='/static/images/icons/acc.jpg' />" alt="">
                         Returning customer? 
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                            Click here to login
@@ -44,7 +46,7 @@
                <div class="panel panel-checkout">
                   <div class="panel-heading" role="tab" id="headingThree">
                      <h4 class="panel-title">
-                        <img src="images/icons/acc.jpg" alt="">
+                        <img src="<c:url value='/static/images/icons/acc.jpg' />" alt="">
                         Have A Coupon? 
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                            Click here to enter your code

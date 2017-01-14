@@ -12,7 +12,7 @@ import com.fishmart.model.OrderDetails;
 @Repository("orderDetailsDao")
 public class OrderDetailsImpl extends AbstractDao implements OrderDetailsDao{
  
-    public void saveOrderDetails(OrderDetails orderDetails) {
+    public void save(OrderDetails orderDetails) {
         persist(orderDetails);
     }
  

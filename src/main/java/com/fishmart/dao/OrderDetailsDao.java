@@ -6,7 +6,7 @@ import com.fishmart.model.OrderDetails;
  
 public interface OrderDetailsDao {
  
-    void saveOrderDetails(OrderDetails employee);
+    void save(OrderDetails orderDetails);
      
     List<OrderDetails> findAll();
      

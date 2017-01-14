@@ -1,7 +1,6 @@
 package com.fishmart.model;
 
 import java.math.BigDecimal;
-import java.time.LocalDate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -11,23 +10,23 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="tb_orderdetails")
+@Table(name="tb_order_details")
 public class OrderDetails {
 	
 	
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "order_id", nullable = false)
     private int orderNumber;
  
     @Column(name = "product_id", nullable = false)
     private String name;
  
     @Column(name = "order_date", nullable = false)
-    
-    private LocalDate orderDate;
- 
+     private String orderDate;
+// 
     @Column(name = "amount", nullable = false)
-    private BigDecimal amount;
+   private BigDecimal amount;
     
     @Column(name = "quantity", nullable = false)
     private int quantity;
@@ -48,21 +47,7 @@ public class OrderDetails {
 		this.name = name;
 	}
 
-	public LocalDate getOrderDate() {
-		return orderDate;
-	}
-
-	public void setOrderDate(LocalDate orderDate) {
-		this.orderDate = orderDate;
-	}
-
-	public BigDecimal getAmount() {
-		return amount;
-	}
-
-	public void setAmount(BigDecimal amount) {
-		this.amount = amount;
-	}
+	
 
 	public int getQuantity() {
 		return quantity;
@@ -76,9 +61,9 @@ public class OrderDetails {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((amount == null) ? 0 : amount.hashCode());
+		//result = prime * result + ((amount == null) ? 0 : amount.hashCode());
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
-		result = prime * result + ((orderDate == null) ? 0 : orderDate.hashCode());
+		//result = prime * result + ((orderDate == null) ? 0 : orderDate.hashCode());
 		result = prime * result + orderNumber;
 		result = prime * result + quantity;
 		return result;
@@ -93,21 +78,21 @@ public class OrderDetails {
 		if (getClass() != obj.getClass())
 			return false;
 		OrderDetails other = (OrderDetails) obj;
-		if (amount == null) {
-			if (other.amount != null)
-				return false;
-		} else if (!amount.equals(other.amount))
-			return false;
+//		if (amount == null) {
+//			if (other.amount != null)
+//				return false;
+//		} else if (!amount.equals(other.amount))
+//			return false;
 		if (name == null) {
 			if (other.name != null)
 				return false;
 		} else if (!name.equals(other.name))
 			return false;
-		if (orderDate == null) {
-			if (other.orderDate != null)
-				return false;
-		} else if (!orderDate.equals(other.orderDate))
-			return false;
+//		if (orderDate == null) {
+//			if (other.orderDate != null)
+//				return false;
+//		} else if (!orderDate.equals(other.orderDate))
+//			return false;
 		if (orderNumber != other.orderNumber)
 			return false;
 		if (quantity != other.quantity)
@@ -115,18 +100,22 @@ public class OrderDetails {
 		return true;
 	}
 
+	
+
 	@Override
 	public String toString() {
-		return "OrderDetails [orderNumber=" + orderNumber + ", name=" + name + ", orderDate=" + orderDate + ", amount="
-				+ amount + ", quantity=" + quantity + "]";
+		return "OrderDetails [orderNumber=" + orderNumber + ", name=" + name + ", quantity=" + quantity + "]";
 	}
 
-	public OrderDetails(int orderNumber, String name, LocalDate orderDate, BigDecimal amount, int quantity) {
+	public OrderDetails(){
+		
+	}
+	public OrderDetails(int orderNumber, String name, int quantity) {
 		super();
 		this.orderNumber = orderNumber;
 		this.name = name;
-		this.orderDate = orderDate;
-		this.amount = amount;
+		//this.orderDate = orderDate;
+		//this.amount = amount;
 		this.quantity = quantity;
 	}
      

@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <header class="header-area header-wrapper">
             <div class="header-top-bar black-bg">
                
@@ -7,7 +9,7 @@
                   <div class="full-width-mega-dropdown">
                      <div class="row">
                         <div class="col-md-2 col-sm-3 col-xs-12">
-                           <div class="logo ptb-20"><a href="index.html"> <img src="images/logo/logo.png" alt="main logo"></a></div>
+                           <div class="logo ptb-20"><a href="index.html"> <img src="<c:url value='/static/images/logo/logo.jpg' />" alt="main logo"></a></div>
                         </div>
                         <div class="col-md-10 col-sm-9 hidden-xs">
                            <div class="header-cart">
@@ -18,7 +20,7 @@
                               <div class="cart-content-wraper">
                                  <div class="cart-single-wraper">
                                     <div class="cart-img">
-                                       <a href="#"><img src="images/product/cart1.jpg" alt=""></a>
+                                       <a href="#"><img src="<c:url value='/static/images/product/cart1.jpg' />" alt=""></a>
                                     </div>
                                     <div class="cart-content">
                                        <div class="cart-name">
@@ -37,7 +39,7 @@
                                  </div>
                                  <div class="cart-single-wraper">
                                     <div class="cart-img">
-                                       <a href="#"><img src="images/product/cart2.jpg" alt=""></a>
+                                       <a href="#"><img src="<c:url value='/static/images/product/cart2.jpg' />" alt=""></a>
                                     </div>
                                     <div class="cart-content">
                                        <div class="cart-name">

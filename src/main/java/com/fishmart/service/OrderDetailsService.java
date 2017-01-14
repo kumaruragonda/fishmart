@@ -6,11 +6,11 @@ import com.fishmart.model.OrderDetails;
  
 public interface OrderDetailsService {
  
-    void saveOrderDetails(OrderDetails employee);
+    void save(OrderDetails employee);
      
     List<OrderDetails> findAll();
      
-    void deleteOrderDetails(String orderNumber);
+    void delete(String orderNumber);
      
     OrderDetails findByOrderNumber(long orderNumber);
      
