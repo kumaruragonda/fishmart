@@ -6,7 +6,7 @@ import com.fishmart.model.Category;
 
 public interface CategoryService {
 	
-	void saveCategoryDetails(Category category);
+	void save(Category category);
     
     List<Category> findAll();
 
